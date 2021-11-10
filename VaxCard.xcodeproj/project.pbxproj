@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3B798C3273B74F50001CDC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B798C2273B74F50001CDC8 /* AppDelegate.swift */; };
+		D3B798C5273B74F50001CDC8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B798C4273B74F50001CDC8 /* SceneDelegate.swift */; };
+		D3B798C7273B74F50001CDC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B798C6273B74F50001CDC8 /* ViewController.swift */; };
+		D3B798CA273B74F50001CDC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3B798C8273B74F50001CDC8 /* Main.storyboard */; };
+		D3B798CC273B74F70001CDC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3B798CB273B74F70001CDC8 /* Assets.xcassets */; };
+		D3B798CF273B74F70001CDC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3B798CD273B74F70001CDC8 /* LaunchScreen.storyboard */; };
+		D3B798DA273B74F70001CDC8 /* VaxCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B798D9273B74F70001CDC8 /* VaxCardTests.swift */; };
+		D3B798E5273B74F70001CDC8 /* VaxCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B798E4273B74F70001CDC8 /* VaxCardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3B798D6273B74F70001CDC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3B798B7273B74F50001CDC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3B798BE273B74F50001CDC8;
+			remoteInfo = VaxCard;
+		};
+		D3B798E1273B74F70001CDC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3B798B7273B74F50001CDC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3B798BE273B74F50001CDC8;
+			remoteInfo = VaxCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3B798BF273B74F50001CDC8 /* VaxCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VaxCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3B798C2273B74F50001CDC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3B798C4273B74F50001CDC8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D3B798C6273B74F50001CDC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3B798C9273B74F50001CDC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3B798CB273B74F70001CDC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3B798CE273B74F70001CDC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3B798D0273B74F70001CDC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3B798D5273B74F70001CDC8 /* VaxCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaxCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3B798D9273B74F70001CDC8 /* VaxCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaxCardTests.swift; sourceTree = "<group>"; };
+		D3B798DB273B74F70001CDC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3B798E0273B74F70001CDC8 /* VaxCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaxCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3B798E4273B74F70001CDC8 /* VaxCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaxCardUITests.swift; sourceTree = "<group>"; };
+		D3B798E6273B74F70001CDC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3B798BC273B74F50001CDC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3B798D2273B74F70001CDC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3B798DD273B74F70001CDC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3B798B6273B74F50001CDC8 = {
+			isa = PBXGroup;
+			children = (
+				D3B798C1273B74F50001CDC8 /* VaxCard */,
+				D3B798D8273B74F70001CDC8 /* VaxCardTests */,
+				D3B798E3273B74F70001CDC8 /* VaxCardUITests */,
+				D3B798C0273B74F50001CDC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3B798C0273B74F50001CDC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3B798BF273B74F50001CDC8 /* VaxCard.app */,
+				D3B798D5273B74F70001CDC8 /* VaxCardTests.xctest */,
+				D3B798E0273B74F70001CDC8 /* VaxCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3B798C1273B74F50001CDC8 /* VaxCard */ = {
+			isa = PBXGroup;
+			children = (
+				D3B798C2273B74F50001CDC8 /* AppDelegate.swift */,
+				D3B798C4273B74F50001CDC8 /* SceneDelegate.swift */,
+				D3B798C6273B74F50001CDC8 /* ViewController.swift */,
+				D3B798C8273B74F50001CDC8 /* Main.storyboard */,
+				D3B798CB273B74F70001CDC8 /* Assets.xcassets */,
+				D3B798CD273B74F70001CDC8 /* LaunchScreen.storyboard */,
+				D3B798D0273B74F70001CDC8 /* Info.plist */,
+			);
+			path = VaxCard;
+			sourceTree = "<group>";
+		};
+		D3B798D8273B74F70001CDC8 /* VaxCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3B798D9273B74F70001CDC8 /* VaxCardTests.swift */,
+				D3B798DB273B74F70001CDC8 /* Info.plist */,
+			);
+			path = VaxCardTests;
+			sourceTree = "<group>";
+		};
+		D3B798E3273B74F70001CDC8 /* VaxCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3B798E4273B74F70001CDC8 /* VaxCardUITests.swift */,
+				D3B798E6273B74F70001CDC8 /* Info.plist */,
+			);
+			path = VaxCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3B798BE273B74F50001CDC8 /* VaxCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3B798E9273B74F70001CDC8 /* Build configuration list for PBXNativeTarget "VaxCard" */;
+			buildPhases = (
+				D3B798BB273B74F50001CDC8 /* Sources */,
+				D3B798BC273B74F50001CDC8 /* Frameworks */,
+				D3B798BD273B74F50001CDC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VaxCard;
+			productName = VaxCard;
+			productReference = D3B798BF273B74F50001CDC8 /* VaxCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3B798D4273B74F70001CDC8 /* VaxCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3B798EC273B74F70001CDC8 /* Build configuration list for PBXNativeTarget "VaxCardTests" */;
+			buildPhases = (
+				D3B798D1273B74F70001CDC8 /* Sources */,
+				D3B798D2273B74F70001CDC8 /* Frameworks */,
+				D3B798D3273B74F70001CDC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3B798D7273B74F70001CDC8 /* PBXTargetDependency */,
+			);
+			name = VaxCardTests;
+			productName = VaxCardTests;
+			productReference = D3B798D5273B74F70001CDC8 /* VaxCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3B798DF273B74F70001CDC8 /* VaxCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3B798EF273B74F70001CDC8 /* Build configuration list for PBXNativeTarget "VaxCardUITests" */;
+			buildPhases = (
+				D3B798DC273B74F70001CDC8 /* Sources */,
+				D3B798DD273B74F70001CDC8 /* Frameworks */,
+				D3B798DE273B74F70001CDC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3B798E2273B74F70001CDC8 /* PBXTargetDependency */,
+			);
+			name = VaxCardUITests;
+			productName = VaxCardUITests;
+			productReference = D3B798E0273B74F70001CDC8 /* VaxCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3B798B7273B74F50001CDC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D3B798BE273B74F50001CDC8 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					D3B798D4273B74F70001CDC8 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = D3B798BE273B74F50001CDC8;
+					};
+					D3B798DF273B74F70001CDC8 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = D3B798BE273B74F50001CDC8;
+					};
+				};
+			};
+			buildConfigurationList = D3B798BA273B74F50001CDC8 /* Build configuration list for PBXProject "VaxCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3B798B6273B74F50001CDC8;
+			productRefGroup = D3B798C0273B74F50001CDC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3B798BE273B74F50001CDC8 /* VaxCard */,
+				D3B798D4273B74F70001CDC8 /* VaxCardTests */,
+				D3B798DF273B74F70001CDC8 /* VaxCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3B798BD273B74F50001CDC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B798CF273B74F70001CDC8 /* LaunchScreen.storyboard in Resources */,
+				D3B798CC273B74F70001CDC8 /* Assets.xcassets in Resources */,
+				D3B798CA273B74F50001CDC8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3B798D3273B74F70001CDC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3B798DE273B74F70001CDC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3B798BB273B74F50001CDC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B798C7273B74F50001CDC8 /* ViewController.swift in Sources */,
+				D3B798C3273B74F50001CDC8 /* AppDelegate.swift in Sources */,
+				D3B798C5273B74F50001CDC8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3B798D1273B74F70001CDC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B798DA273B74F70001CDC8 /* VaxCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3B798DC273B74F70001CDC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B798E5273B74F70001CDC8 /* VaxCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3B798D7273B74F70001CDC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3B798BE273B74F50001CDC8 /* VaxCard */;
+			targetProxy = D3B798D6273B74F70001CDC8 /* PBXContainerItemProxy */;
+		};
+		D3B798E2273B74F70001CDC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3B798BE273B74F50001CDC8 /* VaxCard */;
+			targetProxy = D3B798E1273B74F70001CDC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3B798C8273B74F50001CDC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3B798C9273B74F50001CDC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3B798CD273B74F70001CDC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3B798CE273B74F70001CDC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3B798E7273B74F70001CDC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3B798E8273B74F70001CDC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3B798EA273B74F70001CDC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VZ576M3233;
+				INFOPLIST_FILE = VaxCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lexi.VaxCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3B798EB273B74F70001CDC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VZ576M3233;
+				INFOPLIST_FILE = VaxCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lexi.VaxCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D3B798ED273B74F70001CDC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VZ576M3233;
+				INFOPLIST_FILE = VaxCardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lexi.VaxCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VaxCard.app/VaxCard";
+			};
+			name = Debug;
+		};
+		D3B798EE273B74F70001CDC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VZ576M3233;
+				INFOPLIST_FILE = VaxCardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lexi.VaxCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VaxCard.app/VaxCard";
+			};
+			name = Release;
+		};
+		D3B798F0273B74F70001CDC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VZ576M3233;
+				INFOPLIST_FILE = VaxCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lexi.VaxCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VaxCard;
+			};
+			name = Debug;
+		};
+		D3B798F1273B74F70001CDC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VZ576M3233;
+				INFOPLIST_FILE = VaxCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lexi.VaxCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VaxCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3B798BA273B74F50001CDC8 /* Build configuration list for PBXProject "VaxCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3B798E7273B74F70001CDC8 /* Debug */,
+				D3B798E8273B74F70001CDC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3B798E9273B74F70001CDC8 /* Build configuration list for PBXNativeTarget "VaxCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3B798EA273B74F70001CDC8 /* Debug */,
+				D3B798EB273B74F70001CDC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3B798EC273B74F70001CDC8 /* Build configuration list for PBXNativeTarget "VaxCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3B798ED273B74F70001CDC8 /* Debug */,
+				D3B798EE273B74F70001CDC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3B798EF273B74F70001CDC8 /* Build configuration list for PBXNativeTarget "VaxCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3B798F0273B74F70001CDC8 /* Debug */,
+				D3B798F1273B74F70001CDC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3B798B7273B74F50001CDC8 /* Project object */;
+}
