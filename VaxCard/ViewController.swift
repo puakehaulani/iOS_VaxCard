@@ -8,12 +8,19 @@ import Photos
 import PhotosUI
 import UIKit
 
-class ViewController: UIViewController, PHPickerViewControllerDelegate {
-
+class ViewController: UIViewController {
+    
+    @IBOutlet var imageView: UIImageView!
+    
+    private var itemProviders = [NSItemProvider]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "My Vaccine Records"
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(didTapAdd))
+        imageView.backgroundColor = .gray
+        imageView.image = UIImage(named: "image")
+        imageView.contentMode = .scaleAspectFill
     }
 
     @objc private func didTapAdd(){
@@ -25,17 +32,30 @@ class ViewController: UIViewController, PHPickerViewControllerDelegate {
         present(vc, animated:true)
     }
 
-    func picker(_ picker: PHPickerViewController, didFinishPicking results: [PHPickerResult]) {
-        picker.dismiss(animated: true, completion: nil)
-        results.forEach { result in
-            result.itemProvider.loadObject(ofClass: UIImage.self) { reading, error in
-                guard let image = reading as? UIImage, error == nil else {
-                    return
-                }
-                print(image)
-            }
-        }
-    }
-
+   
+    private var images = [UIImage]()
 }
 
+extension ViewController: PHPickerViewControllerDelegate {
+    func picker(_ picker: PHPickerViewController, didFinishPicking results: [PHPickerResult]) {
+        dismiss(animated: true, completion: nil)
+        
+        self.itemProviders = results.map(\.itemProvider)
+        let item = itemProviders.first
+        if ((item?.canLoadObject(ofClass: UIImage.self)) != nil){
+            item?.loadObject(ofClass:UIImage.self, completionHandler: {(image, error) in
+                DispatchQueue.main.async {
+                    if let image = image as? UIImage {
+                        self.imageView.image = image
+                    }
+                    else {
+                        print(error?.localizedDescription)
+                    }
+                }
+            })
+        }
+        else {
+            print("can't load")
+        }
+       }
+}
